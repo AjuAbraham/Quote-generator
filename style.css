@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #2a2a2a;
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.qoute {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0;
+  min-height: 50px;
+  color: #c7f9cc;
+}
+
+.quoteBy {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffeb3b;
+}
+
+#generateButton {
+  background: linear-gradient(135deg, #ffeb3b, #fdd835);
+  color: black;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 235, 59, 0.5);
+}
+
+#generateButton:hover {
+  background: linear-gradient(135deg, #fdd835, #fbc02d);
+  box-shadow: 0 6px 15px rgba(255, 235, 59, 0.7);
+}
+
+div > button {
+  background: #444;
+  color: #ffeb3b;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 235, 59, 0.2);
+}
+div > button:hover {
+  background: #555;
+  box-shadow: 0 6px 12px rgba(255, 235, 59, 0.3);
+}
+
+.ActionButtonContainer {
+  margin-top: 12px;
+}
+.toastContainer {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.toastPopUp {
+  background: rgba(34, 139, 34, 0.9);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-inline: 2px;
+  display: none;
+  gap: 6px;
+}
+
+.message {
+  color: #e9ffd9;
+}
+
+.tickIcon {
+  color: #e9ffd9;
+}

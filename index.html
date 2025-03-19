@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote of the day</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Generate Random Quote</h2>
+      <p class="qoute"></p>
+      <p class="quoteBy"></p>
+      <button id="generateButton">New Quote</button>
+      <div class="ActionButtonContainer">
+        <button class="copyQoute">
+          <i class="ri-file-copy-line"></i> Copy Qoute
+        </button>
+        <button class="shareOnTwitter">Share on Twitter</button>
+      </div>
+    </div>
+    <div class="toastContainer">
+      <div class="toastPopUp">
+        <span class="tickIcon"> <i class="ri-checkbox-circle-line"></i></span>
+        <p class="message">Copied Successfully</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
